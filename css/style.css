@@ -1,3 +1,9 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
 /* Change focus color to pink */
 .custom-input:focus {
     border-color: pink;
@@ -26,8 +32,41 @@
 }
 
 .listt{
-    border: 1px solid rgb(234,44,43);
+    
     padding: 15px;
     border-radius: 5px;
 }
 
+.listpec{
+    border: 1px solid rgb(234,44,43);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+.container{
+    background-color: rgb(242, 242, 242);
+    padding: 15px;
+}
+.result-pesq>article{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 0px rgb(229, 229, 229);
+}
+
+.result-pesq>article>a>h2{
+    color: rgb(58, 58, 58);
+    font-weight: bolder;
+}
+
+.cnt{
+    margin-left: 45.5%;
+    margin-top: 1%;
+}
+.cnt2{
+    margin-left: 47%;
+    margin-top: 1%;
+}
