@@ -1,0 +1,33 @@
+/* Change focus color to pink */
+.custom-input:focus {
+    border-color: pink;
+    box-shadow: 0 0 0 0.2 rgb(35,67,147);
+    /* Light pink shadow */
+}
+
+/* Custom color for labels */
+.custom-input+label {
+    color: rgb(234,44,43);
+}
+
+/* Customize the submit button */
+.btn-primary {
+    background-color:rgb(234,44,43);
+    border-color:rgb(234,44,43);
+}
+
+.btn-primary:hover {
+    background-color:rgb(153, 21, 21);
+    border-color:rgb(153, 21, 21);
+}
+
+.borda{
+    padding-top: 31px;
+}
+
+.listt{
+    border: 1px solid rgb(234,44,43);
+    padding: 15px;
+    border-radius: 5px;
+}
+
